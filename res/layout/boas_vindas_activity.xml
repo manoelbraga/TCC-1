@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/cabecalho_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boasVindas" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/corpo_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_weight="0.27"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/help_inicial" android:background="@drawable/help_inicial"/>
+
+        <ImageButton
+            android:id="@+id/startButtonImageButton"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="@drawable/fundo_olho" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rodape_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.26"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/direitosReservados" />
+
+    </LinearLayout>
+
+</LinearLayout>
